@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiberKu</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top topnav">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo_sm.png" alt="fiberku" width="130px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Team and Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active px-3 text-white" href="#">Sign In</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div id="carousel-promo" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators" id="promo-indicators">
+                    <button type="button" data-bs-target="#carousel-promo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                </div>
+                <div class="carousel-inner" id="promo-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/bg_banner.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption py-5">
+                            <div class="row">
+                                <h1 class="font-weight-bold text-white text-center">Selamat Datang</h1>
+                                <p class="text-white text-center">Layanan Jaringan Internet Terluas</p>
+                                <h3 class="font-weight-bold text-white text-responsive">Solusi Internet berkelas, Cerdas, dan Handal untuk aktivitas tanpa batas</h3>
+                                <p class="fw-light text-white text-responsive">Layanan digital yang menyediakan internet, telepon rumah, dan TV interaktif dengan beragam pilihan paket serta layanan tambahan yang bisa dipilih sesuai kebutuhan Anda. Saat ini, jaringan FiberKu
+                                    sudah tersebar di seluruh wilayah Indonesia dan terus berinovasi untuk memenuhi kebutuhan
+                                    internet terbaik bagi masyarakat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev carousel-promo-btn" type="button" data-bs-target="#carousel-promo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-promo-btn" type="button" data-bs-target="#carousel-promo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <article>
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div>
+                        <h3 class="mb-4 text-center">
+                            Internet yang cocok Dimanapun
+                        </h3>
+                        <p class="fw-light fs-8 text-center">
+                            Internet merupakan salah satu layanan IndiHome yang menggunakan jaringan fiber optik dan tersebar di seluruh negeri. FiberKu hadir dengan menawarkan pilihan kecepatan Internet unlimited hingga 300 Mbps. Selain cepat, akses internet FiberKu lebih stabil dan tahan terhadap cuaca. Aktifitas seperti bekerja, belajar, belanja online hingga bermain games di rumah jadilebih praktis dan nyaman.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-secondary button-center">Langganan Sekarang</button>
+                </div>
+            </div>
+        </article>
+
+        <article id="product" class="bg-dark bg-opacity-25">
+            <div class="py-5 container">
+                <div class="align-items-center">
+                    <div>
+                        <h3 class="mb-4 text-center">
+                            Berbagai jaringan internet sesuai kebutuhan
+                        </h3>
+                        <p class="fw-light fs-8 text-center">
+                            Pilih paket Internet WiFi terbaik untuk kamu. 
+                        </p>
+                    </div>
+                </div>
+                <div id="carousel-product" class="carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner px-5" id="product-list">
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-product" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-product" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="bg-dark">
+            <div class="container">
+                <div class="footer-container-top text-white">
+                    <div class="footer-content">
+                        <h4>Product</h4>
+                        <a href="#" class="nav-link fw-light fs-6">Up to 10 Mbps</a>
+                        <a href="#" class="nav-link fw-light fs-6">Up to 80 Mbps</a>
+                        <a href="#" class="nav-link fw-light fs-6">Up to 100 Mbps</a>
+                        <a href="#" class="nav-link fw-light fs-6">Up to 200 Mbps</a>
+                        <a href="#" class="nav-link fw-light fs-6">Up to 300 Mbps</a>
+                    </div>
+                    <div class="footer-content">
+                        <h4>FiberKu</h4>
+                        <a href="./index.html" class="nav-link fw-light fs-6">Home</a>
+                        <a href="./about.html" class="nav-link fw-light fs-6">About Us</a>
+                        <a href="./product.html" class="nav-link fw-light fs-6">Product</a>
+                    </div>
+                    <div class="footer-content">
+                        <h4>Contact</h4>
+                        <a href="./contact.html" class="nav-link fw-light fs-6">Team and Contact</a>
+                        <div class="row align-items-start mt-4">
+                            <div class="col-1">
+                                <img src="./assets/icons/location.svg" alt="" width="16px">
+                            </div>
+                            <div class="col-11 fw-light fs-6">
+                                Jl.Bambu Kuning Selatan no.102, Bekasi, Jawa barat 17114, Indonesia
+                            </div>
+                        </div>
+                        <div class="row align-items-start mt-2">
+                            <div class="col-1">
+                                <img src="./assets/icons/email.svg" alt="" width="16px">
+                            </div>
+                            <div class="col-11 fw-light fs-6">
+                                fiberku.sales@gmail.com
+                            </div>
+                        </div>
+                        <div class="row align-items-start mt-2">
+                            <div class="col-1">
+                                <img src="./assets/icons/phone.svg" alt="" width="16px">
+                            </div>
+                            <div class="col-11 fw-light fs-6">
+                                +63 089712394092
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-white text-center p-3 footer-container-bottom">
+            <span>© 2022 FiberKu. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
